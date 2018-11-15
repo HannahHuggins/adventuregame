@@ -20,13 +20,10 @@ description()
 #loading
 # with open('savefile.dat', 'rb') as f:
 #     player, level_state = pickle.load()
-
-
-item = Item
-
-if "i" in input():
-    print(item)
-else:
-    print("what")
-
+#
+#trying to figure out a way to implement inventory system
+# enter = input()
+# if enter == "i":
+#     Item.items_main("items_main", "name", "description", "value")
+#
 

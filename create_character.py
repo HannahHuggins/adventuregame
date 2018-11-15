@@ -8,7 +8,7 @@ def own_description():
 
     if "" in character:
         print(f"You are a {character}")
-        first_stage()
+        first_stage_of_game.first_stage_other()
     else:
         print("Please try again.")
         own_description()
