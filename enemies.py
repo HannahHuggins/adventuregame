@@ -3,3 +3,5 @@ class Enemy:
         self.hp = hp
         self.attack = attack
         self.defense = defense
+
+
