@@ -5,3 +5,6 @@ class Item(object):
         self.description = description
         self.value = value
         print(f"Your items are = {name}, {description}, {value}")
+
+        for name in Item:
+            Item.append(name)

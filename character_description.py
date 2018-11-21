@@ -1,7 +1,6 @@
-from warrior_details import Warrior
-from archer_details import Archer
-from create_character import own_description
-from wizard_details import Wizard
+from character import Wizard
+from character import Archer
+from character import Warrior
 
 
 def description():
@@ -10,12 +9,11 @@ def description():
     character = input("> ")
 
     if "wizard" in character:
-        Wizard.wizard(Wizard, 50, 40, 50)
-
+        Wizard(10,20,30,30)
     elif "archer" in character:
-        Archer.archer(Archer, 50, 50 ,50)
+        Archer(50, 50, 50, 50)
     elif "warrior" in character:
-        Warrior.warrior(Warrior, 50, 50, 50)
+        Warrior(50, 50, 50, 60)
     else:
-        own_description()
+        print("Please try again.")
 
