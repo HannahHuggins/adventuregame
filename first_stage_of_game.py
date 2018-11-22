@@ -1,6 +1,13 @@
 # class Stages:
 #
 #     def __init__(self, first_stage, second_stage, third_stage):
+
+
+# need to map out the areas and stages for the different levels to figure out where character will go
+# avoid repetition
+
+from enemies import Goblin
+
 def first_stage_wizard():
     print("You're walking through a forest, twirling your staff between your fingers, bored out of your mind."
           "\nYou're not sure where you're going but you don't care, you just need to wander and clear your mind."
@@ -27,10 +34,11 @@ def first_stage_wizard():
 
 
 def first_stage_archer():
-    print("woaha nelly")
+    print("woah nelly")
 
 def first_stage_warrior():
     print("You're walking through a forest, twirling a small dagger between your fingers, bored out of your mind.")
+    print("")
 
 
 
@@ -39,7 +47,8 @@ def first_stage_w_left():
 
 
 def first_stage_w_right():
-    print("")
+    print("hey hey")
+    Goblin(10, 10, 10)
 
 
 def first_stage_w_front():
