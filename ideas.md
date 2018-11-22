@@ -30,3 +30,7 @@
 
 * Import a timer or some way of people able to see how long the player has been playing, items could be affected by this etc. 
 * Maybe a way to pause the timer? 
+------------
+**Map**
+
+* Need to create a list of stages and functions within a dictionary - easy to access and means i won't have to write new modules for each stage
